@@ -1,0 +1,142 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth; /* Enable smooth scrolling */
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #fff; /* White text for contrast */
+    background: linear-gradient(135deg, #0a0a0a, #1a1a1a); /* Dark gradient background */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 51, 102, 0.8); /* Semi-transparent background for a modern look */
+    color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4); /* Enhanced shadow for a more futuristic effect */
+    z-index: 1000; /* Ensures header is on top */
+    padding: 15px 30px; /* Increased padding for a more spacious feel */
+    backdrop-filter: blur(10px); /* Blur effect for the background */
+}
+
+header h1 {
+    font-size: 2.5em; /* Larger font size for a more impactful header */
+    color: #00d4ff; /* Futuristic color */
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 1.2em; /* Slightly larger font size for readability */
+    color: #d0d0d0;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px; /* Adjusted margin for a more spaced layout */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px; /* Increased spacing between nav items */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #d0d0d0;
+    font-weight: bold;
+    font-size: 1.1em; /* Adjusted font size for consistency */
+    padding: 12px 25px; /* Increased padding for a more button-like appearance */
+    border-radius: 8px; /* More pronounced rounded corners */
+    background: rgba(0, 51, 102, 0.3); /* Semi-transparent background */
+    transition: background-color 0.3s, color 0.3s, transform 0.3s; /* Smooth transitions */
+}
+
+nav ul li a:hover {
+    background-color: #00d4ff; /* Highlight background color on hover */
+    color: #003366; /* Change text color on hover for better contrast */
+    transform: scale(1.1); /* Slightly enlarge the button on hover */
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 200px 30px 80px; /* Adjusted padding-top to align with the new header height */
+}
+
+section {
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent background for sections */
+    margin-bottom: 30px;
+    padding: 30px;
+    border-radius: 12px; /* Increased border-radius for a softer look */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Enhanced shadow for a more futuristic effect */
+}
+
+section h2 {
+    margin-bottom: 20px;
+    font-size: 2.2em; /* Larger font size for section titles */
+    color: #00d4ff; /* Futuristic color */
+    border-bottom: 2px solid #00d4ff; /* Highlight border color */
+    padding-bottom: 10px;
+}
+
+section ul {
+    list-style: none;
+    padding: 0;
+}
+
+section ul li {
+    margin-bottom: 25px; /* Increased spacing between list items */
+}
+
+section ul li h3 {
+    font-size: 1.6em; /* Larger font size for subheadings */
+    color: #e0e0e0; /* Light color for subheadings */
+    margin-bottom: 10px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+    color: #fff;
+    text-align: center;
+    padding: 15px 30px; /* Adjusted padding for consistency with the header */
+    box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow for a futuristic look */
+    z-index: 1000;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: #00d4ff; /* Futuristic link color */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
